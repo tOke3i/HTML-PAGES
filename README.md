@@ -1,2 +1,2 @@
 # HTML-PAGES
-biketours_pages(html.only)
+biketours_pages(html)
