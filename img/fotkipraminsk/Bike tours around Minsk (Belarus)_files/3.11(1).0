@@ -1,0 +1,783 @@
+/* 
+
+ +-DANGER DANGER DANGER DANGER-+
+ |                             |
+ |                             |
+ |    THIS IS A SASS FILE      |
+ |                             |
+ |    EDIT ONLY THE SCSS       |
+ |                             |
+ |    NEVER EDIT .source.css   |
+ |       (or .css)             |
+ |                             |
+ +-DANGER DANGER DANGER DANGER-+
+
+Before you panic looking for how to compile this nonsese, look here
+https://git.corp.yahoo.com/flickr/classic-tasks
+
+*/
+/* 
+
+ +-DANGER DANGER DANGER DANGER-+
+ |                             |
+ |                             |
+ |    THIS IS A SASS FILE      |
+ |                             |
+ |    EDIT ONLY THE SCSS       |
+ |                             |
+ |    NEVER EDIT .source.css   |
+ |       (or .css)             |
+ |                             |
+ +-DANGER DANGER DANGER DANGER-+
+
+Before you panic looking for how to compile this nonsese, look here
+https://git.corp.yahoo.com/flickr/classic-tasks
+
+*/
+/* -------------------------------------------------------------------------------- */
+/* YUI3 Reset */
+/* -------------------------------------------------------------------------------- */
+html {
+  color: #000;
+  background: #fefefe;
+}
+
+body, div, dl, dt, dd, ul, ol,
+li, h1, h2, h3, h4, h5, h6, pre,
+code, form, fieldset, legend,
+input, textarea, p, blockquote,
+th, td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+address, caption, cite, code,
+dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+caption, th {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before, q:after {
+  content: '';
+}
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+input, textarea, select {
+  *font-size: 100%;
+}
+
+legend {
+  color: #000;
+}
+
+/* -------------------------------------------------------------------------------- */
+/*  */
+/* -------------------------------------------------------------------------------- */
+html {
+  background-color: #141414;
+  overflow: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+
+img {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* Sprites */
+/* -------------------------------------------------------------------------------- */
+.nav-arrows .arrow {
+  position: fixed;
+  _position: absolute;
+  top: 50%;
+  margin-top: -35px;
+}
+.nav-arrows .marker {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  background-color: #141414;
+  /* Provide a fallback for browsers that don't understand rgba() */
+  background: rgba(20, 20, 20, 0.8);
+  border-color: #141414;
+  /* Provide a fallback for browsers that don't understand rgba() */
+  border-color: rgba(20, 20, 20, 0.8);
+  border-style: solid;
+  border-width: 1px;
+  background-clip: padding-box;
+}
+.nav-arrows .nav-arrow-left {
+  left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.nav-arrows .nav-arrow-left .arrow {
+  left: 0;
+}
+.nav-arrows .nav-arrow-left .marker {
+  left: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-left-width: 0;
+  border-top-width: 14px;
+  border-bottom-width: 14px;
+  background-image: url('https://s.yimg.com/pw/images/sprites/icons-sc208c84ef4.png');
+  background-position: 0 -2088px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5) {
+  .nav-arrows .nav-arrow-left .marker {
+    background-image: url('https://s.yimg.com/pw/images/sprites/icons-retina-s51591e68cf.png');
+    background-position: 0 -2075px;
+    -webkit-background-size: 70px auto;
+    -moz-background-size: 70px auto;
+    -o-background-size: 70px auto;
+    background-size: 70px auto;
+  }
+}
+.nav-arrows .nav-arrow-right {
+  right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.nav-arrows .nav-arrow-right .arrow {
+  right: 0;
+}
+.nav-arrows .nav-arrow-right .marker {
+  right: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-right-width: 0;
+  border-top-width: 14px;
+  border-bottom-width: 14px;
+  background-image: url('https://s.yimg.com/pw/images/sprites/icons-sc208c84ef4.png');
+  background-position: 0 -2138px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5) {
+  .nav-arrows .nav-arrow-right .marker {
+    background-image: url('https://s.yimg.com/pw/images/sprites/icons-retina-s51591e68cf.png');
+    background-position: 0 -2025px;
+    -webkit-background-size: 70px auto;
+    -moz-background-size: 70px auto;
+    -o-background-size: 70px auto;
+    background-size: 70px auto;
+  }
+}
+
+.nav-arrows .nav-arrow-right,
+.nav-arrows .nav-arrow-right .marker {
+  /*fixing bug in ie7 right arrow does not show*/
+  *position: absolute;
+}
+
+/* -------------------------------------------------------------------------------- */
+/*  */
+/* -------------------------------------------------------------------------------- */
+.logo {
+  height: 32px;
+  width: 67px;
+  background: url(https://s.yimg.com/pw/images/playr/playr_sprite.png) no-repeat 0 -291px;
+  display: block;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  right: 200px;
+}
+
+.small-ui .attribution {
+  right: 90px;
+}
+
+.fade-big,
+.fade-small {
+  display: block;
+  height: 160px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAACgCAYAAAAM0kxuAAAAeUlEQVRo3u3UwREAEBBD0RyUqf8y0INxWDwFZJL8rJak5+BrSeZpwRCsBwXlHzrk0KVUiKxDlFFGGRRQQAHlJSg6NOwNwVHeoVvWoQ59Dii7FJF1yCHKOhTZbHSoQ5RBQVlkDkUGhUMOObw98oeUzcZsODSbSyPXFly1kVuCBYLYygAAAABJRU5ErkJggg==) repeat-x 0 0;
+}
+
+.buddyiconWrapper {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 48px;
+  height: 48px;
+  line-height: 1;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0px 1px 3px #000;
+  box-shadow: 0px 1px 3px #000;
+}
+.buddyiconWrapper img {
+  width: 48px;
+  height: 48px;
+}
+.buddyiconWrapper .title,
+.buddyiconWrapper .photographer_name {
+  position: relative;
+  top: -48px;
+  left: 58px;
+  color: #fff;
+  text-align: left;
+  display: block;
+  width: 210px;
+  -moz-text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px, rgba(0, 0, 0, 0.8) 0px 1px 1px, rgba(0, 0, 0, 0.1) 0px -1px 0px;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px, rgba(0, 0, 0, 0.8) 0px 1px 1px, rgba(0, 0, 0, 0.1) 0px -1px 0px;
+  text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px, rgba(0, 0, 0, 0.8) 0px 1px 1px, rgba(0, 0, 0, 0.1) 0px -1px 0px;
+}
+.buddyiconWrapper .title {
+  font-size: 20px;
+}
+.buddyiconWrapper .photographer_name {
+  top: -45px;
+}
+
+.title,
+.photographer_name {
+  -moz-text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px, rgba(0, 0, 0, 0.8) 0px 1px 1px, rgba(0, 0, 0, 0.1) 0px -1px 0px;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px, rgba(0, 0, 0, 0.8) 0px 1px 1px, rgba(0, 0, 0, 0.1) 0px -1px 0px;
+  text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px, rgba(0, 0, 0, 0.8) 0px 1px 1px, rgba(0, 0, 0, 0.1) 0px -1px 0px;
+}
+
+.photographer_name a {
+  font-weight: bold;
+}
+
+.card {
+  display: none;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.imgWrapper {
+  position: relative;
+  display: block;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+}
+.imgWrapper img {
+  vertical-align: middle;
+}
+.imgWrapper img.fuzzy {
+  background: url(https://s.yimg.com/pw/images/fuzzy/photo-fuzzy-m.png) repeat 0 0;
+}
+
+.info-bar {
+  position: fixed;
+  _position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  *height: 40px;
+}
+
+.faded .info-bar .opacityBackground {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+.imgLinks {
+  list-style: none;
+  display: block;
+  padding: 0 5px;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+.imgLinks li {
+  display: block;
+  float: left;
+  padding: 5px 5px;
+  margin: 0;
+  height: 26px;
+  min-width: 36px;
+  overflow: hidden;
+  position: relative;
+}
+.imgLinks li.il_fav,
+.imgLinks li.il_comments,
+.imgLinks li.il_share {
+  width: 36px;
+}
+.imgLinks .il_cta {
+  cursor: pointer;
+}
+.imgLinks li.il_fav .li_counter,
+.imgLinks li.il_comments .li_counter {
+  display: none;
+}
+.imgLinks li.il_fav.showCount,
+.imgLinks li.il_comments.showCount {
+  width: 48px;
+}
+.imgLinks li.il_fav.showCount .li_counter,
+.imgLinks li.il_comments.showCount .li_counter,
+.imgLinks li.il_fav.showCountTwo .li_counter,
+.imgLinks li.il_comments.showCountTwo .li_counter {
+  display: inline;
+}
+.imgLinks li.il_fav.showCountTwo,
+.imgLinks li.il_comments.showCountTwo {
+  width: 54px;
+}
+.imgLinks li.il_fav.showCountThree,
+.imgLinks li.il_comments.showCountThree {
+  width: 64px;
+}
+.imgLinks li.il_fav.showCountThree .li_counter,
+.imgLinks li.il_comments.showCountThree .li_counter {
+  display: none;
+}
+.imgLinks li.il_fav.showCountThree .li_99_plus,
+.imgLinks li.il_comments.showCountThree .li_99_plus {
+  display: inline;
+}
+.imgLinks .il_fav .li_icon {
+  background: url(https://s.yimg.com/pw/images/playr/playr_sprite.png) no-repeat 0 -143px;
+  width: 26px;
+  height: 24px;
+}
+.imgLinks .il_fav.is_fav .li_icon {
+  background: url(https://s.yimg.com/pw/images/playr/playr_sprite.png) no-repeat 0 -217px;
+  width: 26px;
+  height: 24px;
+}
+.imgLinks .il_comments .li_icon {
+  background-image: url('https://s.yimg.com/pw/images/sprites/icons-sc208c84ef4.png');
+  background-position: 2px -1500px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5) {
+  .imgLinks .il_comments .li_icon {
+    background-image: url('https://s.yimg.com/pw/images/sprites/icons-retina-s51591e68cf.png');
+    background-position: 2px -1440px;
+    -webkit-background-size: 70px auto;
+    -moz-background-size: 70px auto;
+    -o-background-size: 70px auto;
+    background-size: 70px auto;
+  }
+}
+.imgLinks .il_comments.active .li_icon {
+  background-image: url('https://s.yimg.com/pw/images/sprites/icons-sc208c84ef4.png');
+  background-position: 2px -1050px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5) {
+  .imgLinks .il_comments.active .li_icon {
+    background-image: url('https://s.yimg.com/pw/images/sprites/icons-retina-s51591e68cf.png');
+    background-position: 2px -1040px;
+    -webkit-background-size: 70px auto;
+    -moz-background-size: 70px auto;
+    -o-background-size: 70px auto;
+    background-size: 70px auto;
+  }
+}
+.imgLinks .il_share .li_icon {
+  background-image: url('https://s.yimg.com/pw/images/sprites/icons-sc208c84ef4.png');
+  background-position: 2px -1540px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5) {
+  .imgLinks .il_share .li_icon {
+    background-image: url('https://s.yimg.com/pw/images/sprites/icons-retina-s51591e68cf.png');
+    background-position: 2px -1400px;
+    -webkit-background-size: 70px auto;
+    -moz-background-size: 70px auto;
+    -o-background-size: 70px auto;
+    background-size: 70px auto;
+  }
+}
+.imgLinks .il_share.active .li_icon {
+  background-image: url('https://s.yimg.com/pw/images/sprites/icons-sc208c84ef4.png');
+  background-position: 2px -2216px;
+  background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5) {
+  .imgLinks .il_share.active .li_icon {
+    background-image: url('https://s.yimg.com/pw/images/sprites/icons-retina-s51591e68cf.png');
+    background-position: 2px -2265px;
+    -webkit-background-size: 70px auto;
+    -moz-background-size: 70px auto;
+    -o-background-size: 70px auto;
+    background-size: 70px auto;
+  }
+}
+.imgLinks .il_fullscreen .li_icon {
+  background: url(https://s.yimg.com/pw/images/playr/playr_sprite.png) no-repeat 0 -72px;
+  width: 21px;
+  height: 21px;
+  top: 6px;
+}
+
+.imgLinks .il_fullscreen {
+  display: none;
+}
+
+.fullScreenIsSupported .imgLinks .il_fullscreen {
+  display: block;
+}
+
+.opacityBackground {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(https://s.yimg.com/pw/images/playr/playr_sprite.png) repeat-x 0 -364px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+
+.li_divider {
+  float: right;
+  width: 1px;
+  height: 22px;
+  margin-top: 1px;
+  background-color: #fff;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+  opacity: 0.2;
+}
+
+.li_counter,
+.li_99_plus {
+  color: #fff;
+  position: absolute;
+  top: 9px;
+  right: 13px;
+}
+
+.li_99_plus {
+  display: none;
+}
+
+.li_icon {
+  background-position: 3px -93px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 4px;
+  left: 6px;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* Fade the UI in and out. */
+/* -------------------------------------------------------------------------------- */
+.fade-target {
+  -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
+
+.faded .fade-target {
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.smallest-ui .info-bar .fade-target {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* Use a smaller UI for viewports shorter that 250px and narrowers than 300px. */
+/* -------------------------------------------------------------------------------- */
+.small-ui .buddyiconWrapper {
+  top: 6px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+}
+
+.small-ui .buddyiconWrapper img {
+  width: 24px;
+  height: 24px;
+}
+
+.small-ui .buddyiconWrapper .title,
+.small-ui .buddyiconWrapper .photographer_name {
+  position: relative;
+  top: -26px;
+  left: 32px;
+}
+
+.small-ui .buddyiconWrapper .title {
+  font-size: 14px;
+}
+
+.small-ui .buddyiconWrapper .photographer_name {
+  top: -23px;
+  font-size: 11px;
+}
+
+.small-ui .imgLinks .il_cta,
+.smallest-ui .imgLinks .il_cta {
+  display: none;
+}
+
+.smallest-ui .attribution {
+  display: none;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* Comment overlay. */
+/* -------------------------------------------------------------------------------- */
+.comments-overlay {
+  display: none;
+  position: absolute;
+  background: #FFF;
+  background: rgba(255, 255, 255, 0.93);
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+  font-weight: normal;
+  position: absolute;
+  right: 10px;
+  bottom: 42px;
+  width: 500px;
+  color: #1F1F1F;
+  padding: 8px 0 0;
+}
+
+.comments-overlay .caret {
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #FFF;
+  position: absolute;
+  bottom: -12px;
+  border-color: #FFF transparent transparent transparent;
+  border-color: rgba(255, 255, 255, 0.93) transparent transparent transparent;
+  border-style: solid;
+  border-width: 6px;
+  height: 0;
+  width: 0;
+}
+
+.comment-list .loading {
+  padding: 8px;
+}
+
+.comment-list .balls {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin: 0 10px 0 0;
+}
+
+.comments-overlay.loaded .comment-list {
+  overflow-y: scroll;
+  height: auto;
+}
+
+.comment-list .show-more {
+  padding: 2px 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.comment-list .comment-block {
+  position: relative;
+  text-align: left;
+  padding: 0 8px 8px 67px;
+  min-height: 55px;
+}
+
+.comment-list .comment-owner a:link,
+.comment-list .comment-owner a:visited,
+.comment-list .comment-owner a:active,
+.comment-list .comment-owner a:hover {
+  color: #0063dc;
+}
+
+.comment-list .comment-date a:link,
+.comment-list .comment-date a:visited,
+.comment-list .comment-date a:active,
+.comment-list .comment-date a:hover {
+  color: #bbb;
+}
+
+.comment-list .comment-body {
+  font-size: 13px;
+}
+
+.comment-list .comment-meta .comment-controls {
+  display: none;
+}
+
+.comments-overlay .comment-form {
+  padding: 0 20px 4px 68px;
+}
+
+.comments-overlay .comment-list .comment-icon img,
+.comments-overlay .comment-form img {
+  position: absolute;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  line-height: 1;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0px 1px 3px #000;
+  box-shadow: 0px 1px 3px #000;
+}
+
+.comments-overlay .comment-form textarea {
+  height: 42px;
+  padding: 3px 5px;
+  border: 0;
+  font-size: 13px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* Share overlay. */
+/* -------------------------------------------------------------------------------- */
+.share-overlay {
+  display: none;
+  position: absolute;
+  bottom: 52px;
+  right: 0;
+  width: 219px;
+  height: 61px;
+}
+
+.share-overlay .caret {
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #fff;
+  display: inline-block;
+  height: 0;
+  vertical-align: top;
+  width: 0;
+  position: absolute;
+  bottom: -12px;
+}
+
+.share-overlay .caret,
+.share-overlay .opacityBackground {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: .8;
+}
+
+.share-overlay .share-icons {
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  width: 100%;
+  height: 100%;
+}
+
+.share-overlay .share-icons li {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin-right: 8px;
+  background: url(https://s.yimg.com/pw/images/share-this-icons-sprite.png.v6) no-repeat 0 0;
+  cursor: pointer;
+}
+
+.share-overlay .share-icons li.facebook {
+  background-position: -223px -19px;
+}
+
+.share-overlay .share-icons li.twitter {
+  background-position: -138px -19px;
+}
+
+.share-overlay .share-icons li.pinterest {
+  background-position: -732px -19px;
+}
+
+.share-overlay .share-icons li.tumblr {
+  background-position: -560px -19px;
+}
