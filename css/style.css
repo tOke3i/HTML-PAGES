@@ -6213,7 +6213,7 @@ section {
   color: #ffffff; }
 
 #accordion-book .panel-default > .panel-heading {
-  width: 200px !important;
+  width: 300px !important;
   margin: 0 auto !important;
   border-radius: 5px; }
 
@@ -6261,7 +6261,7 @@ section {
   width: 170px; }
 
 .panel-title {
-  font-size: 14px; }
+  font-size: 13px; }
 
 #bike-whatWeDo .panel-group {
   margin: 0; }
@@ -6831,9 +6831,17 @@ div.pp_default .pp_social {
   max-width: 200px;
   margin: 10px auto 20px;
   cursor: pointer;
-  border-radius: 5px;  
+  border-radius: 5px;
 }
-
+.show-more-btn{
+  color: #fff;
+  background: rgba(254, 167, 0, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  min-width: 300px;
+}
 .show-more-btn:hover {
   background: rgba(254, 167, 0, 0.9); }
 
@@ -6842,7 +6850,9 @@ div.pp_default .pp_social {
 
 .tours-btn {
   margin: 40px 0; }
-
+#footer{
+  margin-top: 20px;
+}
 .filters-button-group {
   text-align: center; }
 
@@ -7588,6 +7598,21 @@ ul.route li:after {
 .our-customers-title{
   margin-top: 55px !important;
   margin-bottom: 55px !important;
+}
+#bike-ourTeam .panel .show-more-btn{
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 5px;
+  line-height: 30px;
+}
+#book-a-tour .panel a{
+  border-radius: 5px;
+  padding: 10px !important;
+}
+#bike-ourTeam .panel .show-more-btn a{
+  display: block;
+  border-radius: 5px;
+  padding: 10px !important;
 }
 .simple-page{
   padding-top: 50px !important;

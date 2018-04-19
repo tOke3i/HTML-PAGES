@@ -85,12 +85,17 @@ jQuery(function($) {
 
     $( "a[href*='#bike-portfolio']" ).on( 'click', function() {
             $grid.isotope({ filter: ".nearest" });
+            $("#nearestID").addClass("is-checked")
+            $('.filters-button-group').removeClass("is-checked")
         });
     $( ".dropdown-wrap a[href*='#bike-portfolio']" ).on( 'click', function() {
             $grid.isotope({ filter: "*" });
         });
+    $("#footer .bike-menuItem li:nth-child(3) a").on("click", function(){
+        $grid.isotope({ filter: "*" });
+})
 // bind filter button click
-	$('.filters-button-group').on( 'click', 'button', function() {
+    $('.filters-button-group').on( 'click', 'button', function() {
 		var filterValue = $( this ).attr('data-filter');
 		// use filterFn if matches value
 		filterValue = filterFns[ filterValue ] || filterValue;
@@ -123,12 +128,12 @@ $(document).ready(function(){
         window.location = this.href;
 
     });
-        $('html, body').animate({
-            'scrollTop': this.offset().top
-
-    }, 500, 'swing', function () {
-            window.location = this.href;
-        });
+    //     $('html, body').animate({
+    //         'scrollTop': this.offset().top
+    //
+    // }, 500, 'swing', function () {
+    //         window.location = this.href;
+    //     });
     $('.social a').attr("target", "_blank");
     $(" #bike-ourTeam a").attr("target", "_blank");
     $("#footer .bike-menuItem li a").removeAttr( "target" );
