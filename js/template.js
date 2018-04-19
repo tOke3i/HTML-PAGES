@@ -40,20 +40,9 @@ jQuery(function($) {
 	$('.bike-portfolioItems > li').each( function() { $(this).hoverdir(); } );
 
 
-	/* =============== SMOOTH SCROOL EFFECT =============== */
-	$('.bike-menuItem ul li a:not(.link-to-page)').on('click',function (e) {
-	    e.preventDefault();
-	    var target = this.hash,
-	    $target = $(target);
 
-	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
-	    }, 500, 'swing', function () {
-	        window.location.hash = target;
-	    });
-	});
-
-	/* =============== SHOW / HIDE GO TO TOP =============== */
+ $("#bike-navbar-collapse .navbar-nav li a").removeAttr("target");
+ /* =============== SHOW / HIDE GO TO TOP =============== */
 	/* Check to see if the window is top if not then display go top button */
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
@@ -93,6 +82,13 @@ jQuery(function($) {
 			return name.match( /ium$/ );
 		}
 	};
+
+    $( "a[href*='#bike-portfolio']" ).on( 'click', function() {
+            $grid.isotope({ filter: ".nearest" });
+        });
+    $( ".dropdown-wrap a[href*='#bike-portfolio']" ).on( 'click', function() {
+            $grid.isotope({ filter: "*" });
+        });
 // bind filter button click
 	$('.filters-button-group').on( 'click', 'button', function() {
 		var filterValue = $( this ).attr('data-filter');
@@ -110,7 +106,8 @@ jQuery(function($) {
 	});
 
 });
-[]
+
+
 $(document).ready(function(){
     $("#book-menu,#book-now").on("click",function(){
     	$("#accordion-book .panel-heading .collapsed").trigger( "click" )
@@ -119,5 +116,22 @@ $(document).ready(function(){
     $("a[href='#bike-portfolio']").on("click",function(){
         $("#nearestID").trigger( "click" );
     });
+
+    /* =============== SMOOTH SCROOL EFFECT =============== */
+    $('.bike-menuItem ul li a:not(.link-to-page), #footer ul li a').on('click',function (e) {
+        e.preventDefault();
+        window.location = this.href;
+
+    });
+        $('html, body').animate({
+            'scrollTop': this.offset().top
+
+    }, 500, 'swing', function () {
+            window.location = this.href;
+        });
+    $('.social a').attr("target", "_blank");
+    $(" #bike-ourTeam a").attr("target", "_blank");
+    $("#footer .bike-menuItem li a").removeAttr( "target" );
+
 
 })

@@ -6823,8 +6823,7 @@ div.pp_default .pp_social {
 #slider-header .item {
   background-size: cover;
   background-position: center bottom; }
-
-.show-more-btn {
+#book-a-tour .show-more-btn {
   text-transform: uppercase;
   border: 1px solid rgba(254, 167, 0, 0.9);
   padding: 10px;
@@ -6832,7 +6831,8 @@ div.pp_default .pp_social {
   max-width: 200px;
   margin: 10px auto 20px;
   cursor: pointer;
-  border-radius: 5px; }
+  border-radius: 5px;  
+}
 
 .show-more-btn:hover {
   background: rgba(254, 167, 0, 0.9); }
@@ -7151,7 +7151,7 @@ div.pp_default .pp_social {
 #bike-ourTeam .bike-sectionHeading {
   margin-top: 20px; }
 
-.row.nino-hoverEffect img {
+.row.  img {
   max-width: 400px;
   margin: 0 auto;
   display: block; }
@@ -7572,7 +7572,9 @@ ul.route li:last-child {
 
 ul.route li:last-child:after {
   display: none; }
-
+.bike-menuItem{
+  text-transform: uppercase;
+}
 ul.route li:after {
   content: "";
   display: block;
@@ -7583,9 +7585,22 @@ ul.route li:after {
   width: 40px;
   height: 1px;
   border-top: dashed 2px #ffffff; }
-
+.our-customers-title{
+  margin-top: 55px !important;
+  margin-bottom: 55px !important;
+}
+.simple-page{
+  padding-top: 50px !important;
+  max-width: 900px;
+}
+.collapse-about path{
+  cursor: pointer;
+}
+.footerLogo a{
+  text-transform: uppercase !important;
+}
 .big {
-  font-size: 3.5em; }
+  font-size: 2.5em; }
 
 h1 {
   font-size: 2.6em; }
