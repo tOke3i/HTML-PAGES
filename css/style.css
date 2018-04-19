@@ -6830,11 +6830,14 @@ div.pp_default .pp_social {
   text-transform: uppercase;
   border: 1px solid rgba(254, 167, 0, 0.9);
   padding: 10px;
-  display: inline-block;
+  display: inline-block !important;
   max-width: 200px;
   margin: 10px auto 20px;
   cursor: pointer;
   border-radius: 5px;
+}
+#book-a-tour .panel-group{
+  text-align: center;
 }
 .show-more-btn{
   color: #fff;
@@ -6843,7 +6846,10 @@ div.pp_default .pp_social {
   border-radius: 5px;
   margin-bottom: 20px;
   font-size: 14px;
-  min-width: 300px;
+  min-width: 200px !important;
+  display: inline-block !important;
+  line-height: 15px !important;
+  margin-right: 0 auto;
 }
 .show-more-btn:hover {
   background: rgba(254, 167, 0, 0.9); }
@@ -6855,6 +6861,9 @@ div.pp_default .pp_social {
   margin: 40px 0; }
 #footer{
   margin-top: 20px;
+}
+#accordion-book{
+  margin: auto !important;
 }
 .filters-button-group {
   text-align: center; }
