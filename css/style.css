@@ -6829,11 +6829,11 @@ div.pp_default .pp_social {
 #book-a-tour .show-more-btn {
   text-transform: uppercase;
   border: 1px solid rgba(254, 167, 0, 0.9);
-  padding: 10px;
   display: inline-block !important;
   max-width: 200px;
   margin: 10px auto 20px;
   cursor: pointer;
+  padding: 0 !important;
   border-radius: 5px;
 }
 #book-a-tour .panel-group{
@@ -7729,7 +7729,13 @@ ul.route li:after {
 
 .tour-text-col-first {
   border-right: 2px solid rgba(254, 167, 0, 0.9); }
-
+#book-a-tour .panel{
+  padding: 0;
+}
+#book-a-tour .panel a{
+  padding:  10px;
+  display: block;
+}
 h4.bold {
   font-size: 1.2rem;
   text-align: center; }
