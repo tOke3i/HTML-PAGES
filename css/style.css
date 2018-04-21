@@ -9691,6 +9691,14 @@ ul li {
   .tour-page-wrapper .big {
     font-size: 3rem !important; } }
 
+@media screen and (max-width: 540px) {
+  #bike-slider{
+    display: none!important;
+  }
+  .full-tour-banner{
+    background: rgba(254, 167, 0, 0.9);
+  }
+}
 @media screen and (max-width: 640px) {
   .tour-page-wrapper .big {
     font-size: 2rem !important; } }
