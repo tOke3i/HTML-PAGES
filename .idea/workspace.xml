@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4c83d47-ecc8-454f-8010-8202ff10d136" name="Default" comment="BEL - full">
+      <change afterPath="$PROJECT_DIR$/.idea/HTML-PAGES.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/styles_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/styles_test/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page-2-pdr-pol.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page2-blizh-bel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page2-rus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page3-bel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page3-rus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page4-rus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-fr.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-fr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-pl.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-pl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page+pdr-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page+pdr-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page+pdr-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page+pdr-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page+pdr-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page+pdr-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-2-way-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-2-way-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-2-way-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-2-way-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-2-way-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-2-way-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-2-way-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-2-way-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-1812-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-1812-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-1812-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-1812-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-1812-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-1812-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-1812-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-1812-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-1812-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-1812-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTa-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTa-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTa-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTa-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTa-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTa-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTa-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTa-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTa-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTa-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTb-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTb-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTb-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTb-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTb-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTb-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTb-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTb-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTb-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTb-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTc-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTc-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTc-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTc-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTc-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTc-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTc-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTc-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-OUTc-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-OUTc-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-a-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-a-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-a-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-a-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-a-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-a-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-a-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-a-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-a-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-a-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-b-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-b-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-b-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-b-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-b-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-b-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-b-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-b-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-b-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-b-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-c-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-c-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-c-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-c-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-c-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-c-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-c-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-c-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-c-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-c-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-d-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-d-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-d-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-d-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-d-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-d-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-d-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-d-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-d-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-d-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-e-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-e-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-e-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-e-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-e-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-e-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-e-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-e-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-e-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-e-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-ecuminism-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-ecuminism-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-ecuminism-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-ecuminism-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-ecuminism-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-ecuminism-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-ecuminism-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-ecuminism-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-ecuminism-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-ecuminism-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-f-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-f-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-f-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-f-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-f-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-f-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-f-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-f-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-f-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-f-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-g-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-g-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-g-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-g-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-g-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-g-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-g-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-g-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-g-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-g-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-karalish-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-karalish-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-karalish-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-karalish-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-karalish-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-karalish-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-karalish-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-karalish-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-karalish-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-karalish-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-legend-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-legend-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-legend-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-legend-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-legend-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-legend-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-legend-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-legend-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-legend-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-legend-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-pakraihanczarou-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-pakraihanczarou-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-pakraihanczarou-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-pakraihanczarou-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-pakraihanczarou-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-pakraihanczarou-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-pakraihanczarou-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-pakraihanczarou-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-pakraihanczarou-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-pakraihanczarou-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-pastaral-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-pastaral-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-pastaral-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-pastaral-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-pastaral-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-pastaral-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-pastaral-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-pastaral-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-pastaral-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-pastaral-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-way-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-way-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-winter-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-winter-bel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-winter-eng.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-winter-eng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-winter-fra.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-winter-fra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-winter-pol.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-winter-pol.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page2-winter-ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2-winter-ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page4-bel.html" beforeDir="false" afterPath="$PROJECT_DIR$/page4-bel.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.idea/shelf/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="591">
+              <caret line="9695" column="28" selection-start-line="9695" selection-start-column="28" selection-end-line="9695" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page2-blizh-bel.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page2-blizh-bel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page+pdr-pol.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page+pdr-pol.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>yarn</find>
+      <find>book</find>
+      <find>.panel-heading</find>
+      <find>#accordion-book</find>
+      <find>#bike-ourTeam .panel .show-more-btn</find>
+      <find>.panel-title</find>
+      <find>#footer</find>
+      <find>30px</find>
+      <find>#book-a</find>
+      <find>index.html</find>
+      <find>condi</find>
+      <find>index.</find>
+      <find>30.</find>
+      <find>conditions</find>
+      <find>page5-bel.html</find>
+      <find>page6-bel.html</find>
+      <find>bike</find>
+      <find>h4.bold</find>
+      <find>samso</find>
+      <find>ifr</find>
+      <find>ifram</find>
+      <find>show-more-btn</find>
+      <find>бел</find>
+      <find>рус</find>
+      <find>БЕЛ</find>
+      <find>RU</find>
+      <find>РУС</find>
+      <find>форс</find>
+      <find>&lt;!-- Mirrored from www.mienskbiketour.by/page2-blizh-bel.html by HTTrack Website Copier/3.x [XR&amp;CO'2014], Wed, 02 May 2018 08:56:19 GMT --&gt;</find>
+      <find>умовы</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>index-en.html</replace>
+      <replace>#footer</replace>
+      <replace>footer</replace>
+      <replace>BEL</replace>
+      <replace>RUS</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/css</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index-en.html" />
+        <option value="$PROJECT_DIR$/page2-a-fra.html" />
+        <option value="$PROJECT_DIR$/page2-a-eng.html" />
+        <option value="$PROJECT_DIR$/page2-b-ru.html" />
+        <option value="$PROJECT_DIR$/page2-a-ru.html" />
+        <option value="$PROJECT_DIR$/page+pdr-ru.html" />
+        <option value="$PROJECT_DIR$/components/rus/conditions-rus.html" />
+        <option value="$PROJECT_DIR$/page2-1812-ru.html" />
+        <option value="$PROJECT_DIR$/page2-c-ru.html" />
+        <option value="$PROJECT_DIR$/page2-d-ru.html" />
+        <option value="$PROJECT_DIR$/page2-ecuminism-ru.html" />
+        <option value="$PROJECT_DIR$/page2-e-ru.html" />
+        <option value="$PROJECT_DIR$/page2-f-ru.html" />
+        <option value="$PROJECT_DIR$/page2-g-ru.html" />
+        <option value="$PROJECT_DIR$/page2-karalish-ru.html" />
+        <option value="$PROJECT_DIR$/page2-legend-ru.html" />
+        <option value="$PROJECT_DIR$/page2-OUTa-ru.html" />
+        <option value="$PROJECT_DIR$/page2-OUTb-ru.html" />
+        <option value="$PROJECT_DIR$/page2-OUTc-ru.html" />
+        <option value="$PROJECT_DIR$/page2-pakraihanczarou-ru.html" />
+        <option value="$PROJECT_DIR$/page2-pastaral-ru.html" />
+        <option value="$PROJECT_DIR$/page2-winter-ru.html" />
+        <option value="$PROJECT_DIR$/page-2-way-ru.html" />
+        <option value="$PROJECT_DIR$/components/bel/conditions-bel.html" />
+        <option value="$PROJECT_DIR$/page+pdr-bel.html" />
+        <option value="$PROJECT_DIR$/page2-a-bel.html" />
+        <option value="$PROJECT_DIR$/page2-ecuminism-bel.html" />
+        <option value="$PROJECT_DIR$/page2-pakraihanczarou-bel.html" />
+        <option value="$PROJECT_DIR$/page2-pastaral-bel.html" />
+        <option value="$PROJECT_DIR$/page-2-way-bel.html" />
+        <option value="$PROJECT_DIR$/page2-way-bel.html" />
+        <option value="$PROJECT_DIR$/page2-b-bel.html" />
+        <option value="$PROJECT_DIR$/page2-1812-bel.html" />
+        <option value="$PROJECT_DIR$/page4-bel.html" />
+        <option value="$PROJECT_DIR$/page2-c-bel.html" />
+        <option value="$PROJECT_DIR$/page2-d-bel.html" />
+        <option value="$PROJECT_DIR$/page2-e-bel.html" />
+        <option value="$PROJECT_DIR$/page2-f-bel.html" />
+        <option value="$PROJECT_DIR$/page2-OUTb-bel.html" />
+        <option value="$PROJECT_DIR$/page2-g-bel.html" />
+        <option value="$PROJECT_DIR$/page2-OUTa-bel.html" />
+        <option value="$PROJECT_DIR$/page2-OUTc-bel.html" />
+        <option value="$PROJECT_DIR$/page2-karalish-bel.html" />
+        <option value="$PROJECT_DIR$/page2-legend-bel.html" />
+        <option value="$PROJECT_DIR$/page2-winter-bel.html" />
+        <option value="$PROJECT_DIR$/index-pl.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/page2-a-pol.html" />
+        <option value="$PROJECT_DIR$/page2-blizh-bel.html" />
+        <option value="$PROJECT_DIR$/page+pdr-rus.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="983" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HTML-PAGES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML-PAGES" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/_pages/fra-tours" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4c83d47-ecc8-454f-8010-8202ff10d136" name="Default" comment="" />
+      <created>1523545446764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523545446764</updated>
+      <workItem from="1523545448684" duration="1664000" />
+      <workItem from="1524051687215" duration="33385000" />
+      <workItem from="1524288774153" duration="3075000" />
+      <workItem from="1525288368060" duration="379000" />
+    </task>
+    <task id="LOCAL-00001" summary="styles test">
+      <created>1524131215837</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524131215837</updated>
+    </task>
+    <task id="LOCAL-00002" summary="all index">
+      <created>1524143860543</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524143860543</updated>
+    </task>
+    <task id="LOCAL-00003" summary="all index">
+      <created>1524172365308</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524172365308</updated>
+    </task>
+    <task id="LOCAL-00004" summary="styles test">
+      <created>1524172463307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524172463307</updated>
+    </task>
+    <task id="LOCAL-00005" summary="styles">
+      <created>1524173076178</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524173076179</updated>
+    </task>
+    <task id="LOCAL-00006" summary="RUS">
+      <created>1524202027491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1524202027491</updated>
+    </task>
+    <task id="LOCAL-00007" summary="BEL (FOOTER HEADER CONDITIONS">
+      <created>1524206192069</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1524206192069</updated>
+    </task>
+    <task id="LOCAL-00008" summary="BEL - full">
+      <created>1524211182883</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1524211182883</updated>
+    </task>
+    <task id="LOCAL-00009" summary="BEL - full">
+      <created>1524211605622</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1524211605622</updated>
+    </task>
+    <task id="LOCAL-00010" summary="last fix">
+      <created>1524291397745</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1524291397745</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="38503000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="983" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.38470453" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32908458" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23687424" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32908458" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all index" />
+    <MESSAGE value="styles test" />
+    <MESSAGE value="styles" />
+    <MESSAGE value="RUS" />
+    <MESSAGE value="BEL (FOOTER HEADER CONDITIONS" />
+    <MESSAGE value="BEL - full" />
+    <MESSAGE value="last fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="last fix" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/page2-e-ru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="515" column="1" selection-start-line="515" selection-start-column="1" selection-end-line="515" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-legend-ru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="1156" column="7" lean-forward="true" selection-start-line="1156" selection-start-column="7" selection-end-line="1156" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-OUTc-ru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="293" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-pastaral-ru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3375">
+          <caret line="1154" column="75" lean-forward="true" selection-start-line="1154" selection-start-column="75" selection-end-line="1154" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-winter-ru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="312" column="34" lean-forward="true" selection-start-line="312" selection-start-column="34" selection-end-line="312" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-pakraihanczarou-ru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="293" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-2-way-ru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="477" column="18" lean-forward="true" selection-start-line="477" selection-start-column="18" selection-end-line="477" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/rus/conditions-rus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="655" lean-forward="true" selection-end-line="678" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-a-ru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="51" column="65" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page+pdr-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="167" column="78" selection-start-line="167" selection-start-column="78" selection-end-line="167" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/bel/conditions-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="590" column="68" lean-forward="true" selection-end-line="618" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-ecuminism-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="1068" column="9" lean-forward="true" selection-start-line="1068" selection-start-column="9" selection-end-line="1068" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page5-bel.html" />
+    <entry file="file://$PROJECT_DIR$/img/fotkipraminsk/Bike tours around Minsk (Belarus).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="582" column="54" selection-start-line="582" selection-start-column="54" selection-end-line="582" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page5-eng.html" />
+    <entry file="file://$PROJECT_DIR$/page-book-bel.html" />
+    <entry file="file://$PROJECT_DIR$/page-2-way-bel.html" />
+    <entry file="file://$PROJECT_DIR$/page2-pastaral-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3338">
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-way-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="1082" column="20" selection-start-line="1082" selection-start-column="20" selection-end-line="1082" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-pakraihanczarou-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="1117" column="20" lean-forward="true" selection-start-line="509" selection-end-line="1117" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-b-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="1106" column="20" lean-forward="true" selection-start-line="498" selection-end-line="1106" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page4-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="146" column="29" lean-forward="true" selection-start-line="146" selection-start-column="29" selection-end-line="146" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-1812-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="1102" column="19" lean-forward="true" selection-start-line="1102" selection-start-column="19" selection-end-line="1102" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-e-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="360" column="103" lean-forward="true" selection-start-line="360" selection-start-column="103" selection-end-line="360" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-d-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="466" column="22" lean-forward="true" selection-start-line="466" selection-start-column="22" selection-end-line="466" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-c-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="978">
+          <caret line="390" column="43" selection-start-line="390" selection-start-column="43" selection-end-line="390" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-f-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="455" column="44" lean-forward="true" selection-start-line="455" selection-start-column="44" selection-end-line="455" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-a-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="430" column="35" lean-forward="true" selection-start-line="430" selection-start-column="20" selection-end-line="430" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-OUTb-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="435" column="21" selection-start-line="435" selection-start-column="21" selection-end-line="435" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-g-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2985">
+          <caret line="447" column="33" selection-start-line="447" selection-start-column="33" selection-end-line="447" selection-end-column="33" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-OUTa-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="435" column="33" selection-start-line="435" selection-start-column="33" selection-end-line="435" selection-end-column="33" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-OUTc-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2355">
+          <caret line="439" column="29" selection-start-line="439" selection-start-column="29" selection-end-line="439" selection-end-column="29" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-karalish-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="321" column="42" selection-start-line="321" selection-start-column="42" selection-end-line="321" selection-end-column="42" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-legend-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="319" column="74" selection-start-line="319" selection-start-column="74" selection-end-line="319" selection-end-column="74" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-winter-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="307" column="42" selection-start-line="307" selection-start-column="42" selection-end-line="307" selection-end-column="42" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-pl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16545">
+          <caret line="1103" column="40" lean-forward="true" selection-start-line="1103" selection-start-column="40" selection-end-line="1103" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-a-pol.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="588" column="87" lean-forward="true" selection-start-line="588" selection-start-column="87" selection-end-line="588" selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adkryccio2017.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-ru-2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1812.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="9695" column="28" selection-start-line="9695" selection-start-column="28" selection-end-line="9695" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page+mapa-rus.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page+mapa-pol.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page+mapa-eng.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page+mapa-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page+pdr-pol.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page+pdr-rus.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-a-rus.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-apol.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2-blizh-bel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
